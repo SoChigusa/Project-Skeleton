@@ -1,0 +1,63 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt,notitlepage]{article}
+\usepackage[dvipdfmx]{graphicx, hyperref, xcolor}
+\usepackage{cite}
+\usepackage{amsmath,amssymb}
+\usepackage{braket}
+\usepackage{comment}
+\usepackage{multirow}
+\usepackage[utf8]{inputenc}
+\usepackage{bm}
+\usepackage{accents}
+
+%%%%% Hyperref %%%%%
+\definecolor{orangered}{HTML}{FF4500}
+\definecolor{crimson}{HTML}{DC143C}
+\definecolor{rossoferrari}{HTML}{D9073D}
+\definecolor{steelblue}{HTML}{4682B4}
+\definecolor{mediumblue}{HTML}{0000CD}
+\definecolor{forestgreen}{HTML}{228B22}
+\hypersetup{% hyperref option list
+setpagesize=false,
+bookmarksnumbered=true,%
+bookmarksopen=true,%
+colorlinks=true,%
+linkcolor=orangered,
+urlcolor=steelblue,
+citecolor=steelblue,
+}
+
+%%%%% spacing %%%%%
+\renewcommand{\baselinestretch}{1.5}
+
+%%%%% Geometry %%%%%
+\usepackage[height=21.5cm,width=16.5cm,centering]{geometry}
+
+%%%%% Page stile %%%%%
+\renewcommand{\thepage}{\arabic{page}}
+\setcounter{page}{1}
+%\renewcommand{\thefootnote}{\#\arabic{footnote}}
+\renewcommand{\thefootnote}{$\natural$\arabic{footnote}}
+\setcounter{footnote}{0}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%    remove the following commands when finalizing
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\rem#1{ {\bf\textcolor{red}{($\clubsuit$ #1 $\clubsuit$)}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\allowdisplaybreaks[1]
+
+\title{Note title}
+\author{\textbf{So Chigusa}}
+
+\begin{document}
+\maketitle
+
+
+
+\bibliography{bib}
+%\bibliographystyle{utphys}
+
+\end{document}
