@@ -1,9 +1,16 @@
 
+/*
+ * File: main.cpp
+ * Author: So Chigusa
+ * Date: MM/DD/YY
+ * Description: some description here
+ */
+
 #include <iostream>
 
 /**
- * Project descreption
- * @return Return value descreption
+ * main program
+ * @return status code
  */
 int main()
 {
