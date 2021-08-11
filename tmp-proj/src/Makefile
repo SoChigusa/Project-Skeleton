@@ -1,7 +1,7 @@
 
 CXX := g++
 CXXFLAGS := -g -Wall -std=c++11 -Ofast
-INCLUDE = -I/Users/SoChigusa/works/NumericalTools/
+INCLUDE = -I/Users/SoChigusa/works/Include/ -I/Users/SoChigusa/works/NumericalTools/
 # BOOSTFLAGS = -I/opt/boost_1_71_0/include -L/opt/boost_1_71_0/lib
 # BOOSTLIBS = -lboost_program_options
 # ROOTFLAGS = $(shell root-config --cflags)
