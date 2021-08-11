@@ -17,5 +17,12 @@ int main()
 {
   std::cout << std::setprecision(6) << std::scientific;
 
+  try
+  {
+  }
+  catch (std::string &error)
+  {
+    std::cerr << "Error: " << error << std::endl;
+  }
   return 0;
 }
