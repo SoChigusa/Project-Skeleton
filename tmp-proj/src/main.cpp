@@ -14,6 +14,7 @@
  */
 int main()
 {
+  std::cout << std::setprecision(6) << std::scientific;
 
   return 0;
 }
