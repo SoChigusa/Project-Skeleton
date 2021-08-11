@@ -24,5 +24,9 @@ int main()
   {
     std::cerr << "Error: " << error << std::endl;
   }
+  catch (const char *error)
+  {
+    std::cerr << "Error: " << error << std::endl;
+  }
   return 0;
 }
